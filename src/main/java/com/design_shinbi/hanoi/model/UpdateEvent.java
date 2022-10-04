@@ -1,4 +1,4 @@
-package cc.shinbi.hanoi.model;
+package com.design_shinbi.hanoi.model;
 
 /**
  * 更新イベントインターフェース

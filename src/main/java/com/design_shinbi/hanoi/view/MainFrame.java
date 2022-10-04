@@ -1,11 +1,12 @@
-package cc.shinbi.hanoi.view;
+package com.design_shinbi.hanoi.view;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import cc.shinbi.hanoi.Const;
-import cc.shinbi.hanoi.Solution;
-import cc.shinbi.hanoi.model.Hanoi;
+import com.design_shinbi.hanoi.Const;
+import com.design_shinbi.hanoi.Solution;
+import com.design_shinbi.hanoi.model.Hanoi;
+
 import javafx.beans.value.ChangeListener;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

@@ -1,9 +1,9 @@
-package cc.shinbi.hanoi;
+package com.design_shinbi.hanoi;
 
-import cc.shinbi.hanoi.exception.HanoiException;
-import cc.shinbi.hanoi.model.Disk;
-import cc.shinbi.hanoi.model.Tower;
-import cc.shinbi.hanoi.view.Logger;
+import com.design_shinbi.hanoi.exception.HanoiException;
+import com.design_shinbi.hanoi.model.Disk;
+import com.design_shinbi.hanoi.model.Tower;
+import com.design_shinbi.hanoi.view.Logger;
 
 /**
  * ハノイの塔を実行する。
@@ -42,9 +42,27 @@ public class Solution {
 		right.push(disk);
 
 		// Disk オブジェクトの getSize() メソッドで円盤のサイズを取得することができます。
-		int size = disk.getSize();
-
+		int size = disk.getSize();		
+		logger.info("ヒントは moveTower を実装して solve メソッドの中で "
+						+ "moveTower(left, middle, right, left.getHeight()) を呼び出します。");
 		logger.info("それでは、Let's Challenge!!!");
+		
+		// this.moveTower(left, middle, right, left.getHeight());
+	}
+	
+	/**
+	 * ハノイの塔を移動する
+	 * @param from 移動元の塔
+	 * @param to 移動先の塔
+	 * @param another 移動元、移動先以外の塔
+	 * @param height 移動したい塔の段数
+	 * @throws HanoiException 例外
+	 */
+	private void moveTower(Tower from, Tower to, Tower another, int height) throws HanoiException {
+		
+		// これを実装して
+		// solve で this.moveTower(left, middle, right, left.getHeight()) を呼び出します。
+		
 	}
 
 }

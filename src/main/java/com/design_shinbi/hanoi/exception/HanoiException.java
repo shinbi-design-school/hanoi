@@ -1,4 +1,4 @@
-package cc.shinbi.hanoi.exception;
+package com.design_shinbi.hanoi.exception;
 
 /**
  * ハノイの塔 例外 (大きい円盤を小さな円盤の上に置いた時など)

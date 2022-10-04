@@ -1,4 +1,4 @@
-package cc.shinbi.hanoi;
+package com.design_shinbi.hanoi;
 
 import javafx.scene.paint.Color;
 

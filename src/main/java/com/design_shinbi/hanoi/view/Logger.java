@@ -1,4 +1,4 @@
-package cc.shinbi.hanoi.view;
+package com.design_shinbi.hanoi.view;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

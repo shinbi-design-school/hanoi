@@ -1,6 +1,7 @@
-package cc.shinbi.hanoi;
+package com.design_shinbi.hanoi;
 
-import cc.shinbi.hanoi.view.MainFrame;
+import com.design_shinbi.hanoi.view.MainFrame;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

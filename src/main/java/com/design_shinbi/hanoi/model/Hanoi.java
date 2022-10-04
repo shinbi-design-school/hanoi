@@ -1,12 +1,12 @@
-package cc.shinbi.hanoi.model;
+package com.design_shinbi.hanoi.model;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import cc.shinbi.hanoi.exception.HanoiException;
-import cc.shinbi.hanoi.view.Logger;
+import com.design_shinbi.hanoi.exception.HanoiException;
+import com.design_shinbi.hanoi.view.Logger;
 
 /**
  * ハノイの塔 クラス

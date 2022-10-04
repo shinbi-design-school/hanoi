@@ -1,12 +1,13 @@
-package cc.shinbi.hanoi.view;
+package com.design_shinbi.hanoi.view;
 
 import java.util.Arrays;
 import java.util.List;
 
-import cc.shinbi.hanoi.Const;
-import cc.shinbi.hanoi.model.Disk;
-import cc.shinbi.hanoi.model.Hanoi;
-import cc.shinbi.hanoi.model.Tower;
+import com.design_shinbi.hanoi.Const;
+import com.design_shinbi.hanoi.model.Disk;
+import com.design_shinbi.hanoi.model.Hanoi;
+import com.design_shinbi.hanoi.model.Tower;
+
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.scene.canvas.Canvas;
